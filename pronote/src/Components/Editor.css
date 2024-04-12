@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .input,
+  .output {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .input h3,
+  .output h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .input-text, .output-text {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+
+  
